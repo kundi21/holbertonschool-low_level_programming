@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  *main - Prints out a string to stdout.
  *
@@ -6,6 +7,6 @@
  */
 int main(void)
 {	
-	puts("\"Programming is like a multilingual puzzle\"");
+	puts("\"Programming is like a multilingual puzzle\");
 	return (0);
 }

@@ -1,2 +1,6 @@
 #include <stdio.h>
-gcc -Wall program.c -o
+
+int main() {
+	printf("Hello, world!\n");
+	return 0;
+}

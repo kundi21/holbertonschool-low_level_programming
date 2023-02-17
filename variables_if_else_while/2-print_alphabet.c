@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	char (int x = 'a')
+	char (x = 'a')
 	char (x <= 'z')
 	char (x++)
 	{

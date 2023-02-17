@@ -8,9 +8,9 @@
  */
 int main(void)
 {
-	char (x == 'a')
-	char (x <= 'z')
-	char (x++)
+	char (x == 'a');
+	char (x <= 'z');
+	char (x++);
 	{
 	putchar(x);
 	}

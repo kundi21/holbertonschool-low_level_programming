@@ -10,9 +10,9 @@ int main(void)
 	int numero;
 
 	for (numero = 0; numero < 10; numero++)
-		printf("%d", numero);
+		putchar((numero % 10) + '0');
 
-	printf("\n");
+	putchar('\n');
 
 	return (0);
 }

@@ -11,7 +11,8 @@ all : $(NAME)
 	$(CC) -c $<
 
 clean : 
-
+	$(RM *~ $(NAME)
+	)
 oclean : 
 
 fclean : 

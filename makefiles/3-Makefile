@@ -5,7 +5,9 @@ NAME = school
 RM = rm -f
 
 all : $(NAME)
-	$(CC) $(OBJ) -o $(NAME)
+
+$(NAME): $(OBJ)
+	$(CC) $(OBJ) -O $(NAME)
 
 %.o: %.c
 	$(CC) -c $<
@@ -19,8 +21,7 @@ oclean :
 fclean : 
 	$(RM) *~ *.o $(NAME)
 
-re:
-	fclean all
+re: fclean all
 #main.o: main.c
 #	$(CC) -c $<
 #

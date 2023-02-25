@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stdio.h>
-/*
- * print_square - function that prints a square.
- * @n: Input number
+/**
+ * print_square - Function that print squares of #.
+ * @n: Input number.
  */
 void print_square(int n)
 {

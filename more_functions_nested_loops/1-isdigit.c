@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *
  * _isdigit - Checks if uppercase.
  * @c: Input value.
  * Return: 1 if uppercase, 0 if else.

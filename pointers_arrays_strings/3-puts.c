@@ -5,12 +5,12 @@
  *
  *
  */
-void _puts(char *str)
+int main()
 {
-	char str;
+	char str[] = "I do not fear computers. I fear the lack of them - Isaac Asimov";
 
-	_puts(*str);
-	
+	puts(str);
+	return 0;
 }
 
 		

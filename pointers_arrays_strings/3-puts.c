@@ -3,14 +3,13 @@
 /**
  * _puts - function that prints a string, followed by a new line, to stdout.
  *
- *
+ * @str: pointer to string.
  */
-int main()
+void _puts(char *str)
 {
-	char str[] = "I do not fear computers. I fear the lack of them - Isaac Asimov";
+	int n = 0;
 
-	puts(str);
-	return 0;
+	for (; str[n] != '\0'; n++)
+		_putchar(str[n]);
+	_putchar('\n');
 }
-
-		

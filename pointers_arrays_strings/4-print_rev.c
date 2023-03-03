@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _puts - function that prints a string, followed by a new line, to stdout.
+ * print_rev - function that prints a string, in reversE.
  *
  * @str: pointer to string.
  */
@@ -9,12 +9,16 @@ void print_rev(char *str)
 {
 	char *aux = str;
 
-        for (; *aux; aux++)
-		;
-	aux--;
-	for (; aux != str; aux--)
-		_putchar(*aux);
-	_putchar(*str);
+	if (str != NULL && *str != '\0')
+	{
+		for (; *aux; aux++)
+			continue;
+
+		aux--;
+		for (; aux != str; aux--)
+			_putchar(*aux);
+		_putchar(*str);
+	}
 	_putchar('\n');
 }
 

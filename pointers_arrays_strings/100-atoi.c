@@ -15,20 +15,20 @@ int _atoi(char *s)
 	x = 1;
 	y = 0;
 
-	while (s[i])
+	while (*s != '\0')
 	{
-		if (s[i] == '-')
+		if (*s  == '-')
 			x *= -1;
 
-		if (s[i] >= '0' && s[i] <= '9')
+		else if (*s >= '0' && *s <= '9')
 		{
-			y = y * 10 + (s[i] - '0');
-
-			if (s[i + 1] < '0' || s[i + 1] > '9')
-				break;
+			y *= 10;
+			y += *s - '0';
+			i = 1;
 		}
-
-		i++;
+		else if (i)
+			break;
+		s++;
 	}
 
 	return (y * x);

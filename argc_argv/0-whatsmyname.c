@@ -3,6 +3,7 @@
  * main - main function.
  *
  * @argv: argv
+ * @argc: argc
  *
  * Return: 0 if success.
  */

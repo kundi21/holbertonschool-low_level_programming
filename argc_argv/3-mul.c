@@ -3,16 +3,14 @@
 
 /**
  * main - main
- * 
  * @argc: argc
  * @argv: argv
- *
  * Return: 0 if success.
  */
 int main(int argc, char **argv)
 {
 	int x, y;
-	
+
 	if (argc == 3)
 	{
 		x = atoi(argv[1]);

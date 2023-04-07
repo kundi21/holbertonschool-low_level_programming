@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * add_node - add new node at beginning.
+ * add_node_end - add new node at end.
  * @str: str
  * @head: head
  * Return: newNode

@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * binary_to_unit - binary to unit
+ * binary_to_uint - binary to unit
  * @b: pointer to b
  * Return: unit
  */
